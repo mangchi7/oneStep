@@ -14,6 +14,8 @@ mysql 설치
 
 create database boardTest;
 
+use boardTest;
+
 CREATE TABLE `board` (
   `id` int NOT NULL,
   `title` char(25) DEFAULT NULL,
