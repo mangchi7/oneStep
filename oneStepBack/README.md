@@ -12,15 +12,18 @@ https://goddaehee.tistory.com/277
 mysql 설치
 암호는 2100
 
-create database boardTest;
+mysql 들어간 후에
 
-use boardTest;
 
-CREATE TABLE `board` (
+  1. create database boardTest;
+
+  2. use boardTest;
+
+  3. CREATE TABLE `board` (
   `id` int NOT NULL,
   `title` char(25) DEFAULT NULL,
   `insert_name` char(25) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
 
-insert into board values(1, 'test1','test-1');
+  4. insert into board values(1, 'test1','test-1');
