@@ -19,6 +19,6 @@ CREATE TABLE `board` (
   `title` char(25) DEFAULT NULL,
   `insert_name` char(25) DEFAULT NULL,
   PRIMARY KEY (`id`)
-)
+);
 
 insert into board values(1, 'test1','test-1');
