@@ -29,5 +29,5 @@ public class BoardService {
 	public List<Board> allBoard() {
 		return boardRepository.findAll();
 	}
-
+	//
 }
