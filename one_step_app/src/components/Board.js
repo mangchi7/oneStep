@@ -17,7 +17,7 @@ const Board = () => {
 	};
 	if (boards.length > 0) {
 		return (
-			<table>
+			<table className="testTable">
 				<tbody>
 					<tr>
 						<th>NO</th>

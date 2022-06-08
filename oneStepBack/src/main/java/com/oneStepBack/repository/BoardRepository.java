@@ -8,5 +8,5 @@ import com.oneStepBack.entity.Board;
 
 public interface BoardRepository extends JpaRepository<Board, Integer> { 
 //	public List<Board> findAll();
-
+	List<Board> findById(int title);
 }
