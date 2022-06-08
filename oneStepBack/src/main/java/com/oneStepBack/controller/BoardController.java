@@ -37,7 +37,7 @@ public class BoardController {
 	
 	@PostMapping("/board")
 	public List<Board> insertBoard(@RequestBody Board board) {
-		System.out.println("board : " + board);
+		System.out.println("board2 : " + board);
 		return boardService.insertBoard(board);
 	}
 	
